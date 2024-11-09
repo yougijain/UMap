@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-z(0ch81k*l-s+8_t66+m1tfy1wnrpm1vb181ha!k3fwb-x8mvv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['yourumap.onrender.com', 'umap-uglf.onrender.com', 'yourumap.tech']
+ALLOWED_HOSTS = ['yourumap.onrender.com', 'umap-uglf.onrender.com', 'yourumap.tech','www.yourumap.tech']
 
 
 # Application definition
