@@ -192,13 +192,17 @@
     <div class="border-for-map2"></div>
     <div class="rectangle-39"></div>
     <div class="line-2"></div>
-    <div class="connect2">Connect</div>
-    <div class="map2">Map</div>
-    <div class="events2">Events</div>
-    
-    <a href="{% url 'homepage' %}">
-      <div class="home2">Home</div>
-    </a>  
+    <div class="top-navigation" style="position: absolute; z-index: 100; top: 20px; left: 20px;">
+      <div class="connect2">Connect</div>
+      <div class="map2" style="position: absolute;">Map</div>
+      <a href="{% url 'events' %}">
+        <div class="events2" style="position: absolute;">Events</div>
+      </a>
+      <a href="{% url 'homepage' %}">
+        <div class="home2" style="position: absolute;">Home</div>
+      </a>
+    </div>
+
     
     
     <img class="logo" src="{% static '/assets/logo0.png' %}" />

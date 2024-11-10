@@ -39,12 +39,12 @@
 </head>
 <body>
   <div class="home-page">
-    <div class="rectangle-17"></div>
-    <div class="button-sm">
+    <div class="rectangle-17" style="position: relative; z-index: 1;">
+      <div class="button-sm" style="position: relative; z-index: 10;">
       <div class="h-6">RSVP Now</div>
       <img class="icn-arrow-right-icn-xs" src="{% static 'assets/icn-arrow-right-icn-xs0.svg' %}" />
     </div>
-    <div class="background"></div>
+    <div class="background" style="position: relative; z-index: 1;"></div>
     <div class="h-5-product-title-2">November 8th-10th, 2024 at 6:30pm</div>
     <img class="course-background-3" src="{% static 'assets/course-background-30.svg' %}" />
     <img class="course-background-8" src="{% static 'assets/course-background-80.svg' %}" />
@@ -327,7 +327,9 @@
     </a><a href="{% url 'events' %}">
       <div class="events">Events</div>
     </a>
-    <div class="home">Home</div>
+    <a href="{% url 'homepagelogo' %}">
+      <div class="home">Home</div>
+    </a>
     <div class="connect">Connect</div>
     <img class="logo" src="{% static 'assets/logo0.png' %}" />
     <div class="h-2-section-title-4">

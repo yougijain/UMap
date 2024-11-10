@@ -559,9 +559,25 @@
   height: 0px;
   position: absolute;
   left: 1276px;
-  top: 124px;
+  top: 104px;
   transform-origin: 0 0;
   transform: rotate(90deg) scale(1, 1);
+}
+
+.top-navigation {
+  position: absolute;
+  top: 20px; /* Adjust position as needed */
+  left: 20px; /* Adjust position as needed */
+  z-index: 100; /* High z-index to keep it on top */
+  display: flex;
+  gap: 20px; /* Space between items */
+}
+
+/* Individual navigation items inherit the z-index from their container */
+.top-navigation .map2,
+.top-navigation .events2,
+.top-navigation .home2 {
+  z-index: inherit; /* Ensures they use the wrapper’s z-index */
 }
 .connect2 {
   color: #ffffff;
@@ -571,7 +587,7 @@
   font-weight: 800;
   position: absolute;
   left: 1086px;
-  top: 124px;
+  top: 104px;
   width: 190px;
   height: 70px;
 }
@@ -583,7 +599,7 @@
   font-weight: 800;
   position: absolute;
   left: 992px;
-  top: 125px;
+  top: 105px;
   width: 125px;
   height: 70px;
 }
@@ -595,7 +611,7 @@
   font-weight: 800;
   position: absolute;
   left: 852px;
-  top: 124px;
+  top: 104px;
   width: 125px;
   height: 70px;
 }
@@ -607,7 +623,7 @@
   font-weight: 800;
   position: absolute;
   left: 724px;
-  top: 124px;
+  top: 104px;
   width: 125px;
   height: 70px;
 }
@@ -615,7 +631,7 @@
   width: 77.19px;
   height: 73px;
   position: absolute;
-  left: -13px;
+  left: 13px;
   top: 104px;
   object-fit: cover;
 }
