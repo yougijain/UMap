@@ -29,7 +29,7 @@ button {
   background: #444444;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
-.shape-with-text {
+.shape-text {
   position: relative;
   width: 1366px;
   height: 66px;
@@ -38,7 +38,7 @@ button {
   z-index: 36;
   border-radius: 6px;
 }
-.shape-with-text-1 {
+.shape-text-1 {
   position: absolute;
   width: 1240.662px;
   height: 24px;
@@ -48,7 +48,7 @@ button {
   z-index: 37;
   border-radius: 9.6px;
 }
-.shape-with-text-2 {
+.shape-text-2 {
   position: absolute;
   width: 16px;
   height: 16px;
@@ -57,7 +57,7 @@ button {
   background: #f8f8f8;
   z-index: 38;
 }
-.shape-with-text-3 {
+.shape-text-3 {
   position: absolute;
   width: 16px;
   height: 16px;
@@ -66,7 +66,7 @@ button {
   background: #f8f8f8;
   z-index: 39;
 }
-.flex-row-dffb {
+.flex-row {
   position: relative;
   width: 1307px;
   height: 91px;
@@ -79,12 +79,12 @@ button {
   height: 73px;
   top: 0;
   left: 0;
-  background: url(./assets/images/beb12b9b-05c4-4d84-963b-784dacb6ed15.png)
+  background: url(./assets/images/79140986-13ca-4b9b-89cb-c6d24b6deda1.png)
     no-repeat center;
   background-size: cover;
   z-index: 53;
 }
-.map-4 {
+.map {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -107,7 +107,7 @@ button {
   height: 54.95%;
   top: 18.68%;
   left: 88.75%;
-  background: url(./assets/images/bc9bc965-c831-4637-ba73-d89c9f2a8d2a.png)
+  background: url(./assets/images/fed5b621-a6bf-45bc-9edc-b7da67abcf27.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 61;
@@ -206,6 +206,38 @@ button {
   z-index: 41;
   overflow: hidden;
 }
+.ellipse {
+  position: relative;
+  width: 52px;
+  height: 60px;
+  margin: 1164px 0 0 720px;
+  background: url(./assets/images/a9a85868-82ba-4d95-8835-4f93542354ec.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 71;
+  overflow: visible auto;
+}
+.frame {
+  position: relative;
+  width: 41px;
+  height: 41px;
+  margin: 6px 0 0 5.5px;
+  background: #ffffff;
+  z-index: 72;
+  overflow: hidden;
+  border-radius: 26px;
+}
+.no-one-under-eighteen {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  left: -2px;
+  background: url(./assets/images/68b6339661a46b8e019523740d9c9f608bd9fe1a.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 73;
+}
 .group {
   position: absolute;
   width: 2511px;
@@ -214,7 +246,7 @@ button {
   left: -487px;
   z-index: 42;
 }
-.group-5 {
+.group-4 {
   position: absolute;
   width: 2511px;
   height: 2901px;
@@ -248,7 +280,7 @@ button {
   margin: 4.4px 0 0 4.4px;
   z-index: 51;
 }
-.fire-6 {
+.fire-5 {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -259,18 +291,18 @@ button {
   background-size: cover;
   z-index: 52;
 }
-.ellipse {
+.ellipse-6 {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background: url(./assets/images/a07e2850-9578-467e-a767-6179b112fbfc.png)
+  background: url(./assets/images/15ac93f5-52c9-4a61-ac2a-9d1f3feb4037.png)
     no-repeat center;
   background-size: cover;
   z-index: 47;
 }
-.frame {
+.frame-7 {
   position: absolute;
   width: 41px;
   height: 41px;
@@ -282,7 +314,7 @@ button {
   overflow: hidden;
   border-radius: 26px;
 }
-.no-under-eighteen {
+.no-one-under-eighteen-8 {
   position: absolute;
   top: -2px;
   right: -2px;
@@ -304,7 +336,7 @@ button {
   background-size: contain;
   z-index: 45;
 }
-.basemap-image-7 {
+.basemap-image-9 {
   position: absolute;
   width: 2278.239px;
   height: 1973.418px;
@@ -344,18 +376,18 @@ button {
   white-space: nowrap;
   z-index: 69;
 }
-.ellipse-8 {
+.ellipse-a {
   position: absolute;
   top: 427px;
   right: 294px;
   bottom: 1230px;
   left: 1020px;
-  background: url(./assets/images/2d6ee3af-e0e1-4bd0-8cd0-97d4265d529f.png)
+  background: url(./assets/images/c42bc872-2722-409f-a8e5-037675f3eccb.png)
     no-repeat center;
   background-size: cover;
   z-index: 65;
 }
-.frame-9 {
+.frame-b {
   position: relative;
   width: 41px;
   height: 41px;
@@ -365,7 +397,7 @@ button {
   overflow: hidden;
   border-radius: 26px;
 }
-.no-one-under-eighteen {
+.no-one-under-eighteen-c {
   position: absolute;
   top: -2px;
   right: -2px;
@@ -481,7 +513,7 @@ button {
   width: 23px;
   height: 23px;
   margin: 0 0 0 0.5px;
-  background: url(./assets/images/df095acb-e203-4707-85bd-54e3bb45f5c2.png)
+  background: url(./assets/images/ebd2a9de-889f-4628-bc34-665afdf9be79.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 9;
@@ -503,17 +535,17 @@ button {
   z-index: 11;
   overflow: hidden;
 }
-.vector-a {
+.vector-d {
   position: relative;
   width: 22px;
   height: 22px;
   margin: 1px 0 0 1.5px;
-  background: url(./assets/images/55bbbd03-c1bd-466b-a206-93efa6ce1ae2.png)
+  background: url(./assets/images/b0a48a3a-fe17-4e72-a8ab-74c1db771f36.png)
     no-repeat center;
   background-size: 100% 100%;
   z-index: 12;
 }
-.col-md-b {
+.col-md-e {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -525,7 +557,7 @@ button {
   z-index: 13;
   overflow: hidden;
 }
-.company-info {
+.h-company-info {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -551,7 +583,7 @@ button {
   width: 67px;
   z-index: 15;
 }
-.about-us {
+.link-about-us {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -566,7 +598,7 @@ button {
   letter-spacing: 0.2px;
   z-index: 16;
 }
-.blog {
+.link-blog {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -581,7 +613,7 @@ button {
   letter-spacing: 0.2px;
   z-index: 17;
 }
-.col-md-c {
+.col-md-f {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -593,7 +625,7 @@ button {
   z-index: 18;
   overflow: hidden;
 }
-.features {
+.h-features {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -608,7 +640,7 @@ button {
   letter-spacing: 0.1px;
   z-index: 19;
 }
-.div-d {
+.div-10 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -619,7 +651,7 @@ button {
   width: 142px;
   z-index: 20;
 }
-.business-marketing {
+.link-business-marketing {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -634,7 +666,7 @@ button {
   letter-spacing: 0.2px;
   z-index: 21;
 }
-.user-analytic {
+.link-user-analytic {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -649,7 +681,7 @@ button {
   letter-spacing: 0.2px;
   z-index: 22;
 }
-.live-chat {
+.link-live-chat {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -664,7 +696,7 @@ button {
   letter-spacing: 0.2px;
   z-index: 23;
 }
-.unlimited-support {
+.link-unlimited-support {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -679,7 +711,7 @@ button {
   letter-spacing: 0.2px;
   z-index: 24;
 }
-.col-md-e {
+.col-md-11 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -691,7 +723,7 @@ button {
   z-index: 25;
   overflow: hidden;
 }
-.resources {
+.span-h {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -706,7 +738,7 @@ button {
   letter-spacing: 0.1px;
   z-index: 26;
 }
-.div-f {
+.div-12 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -717,7 +749,7 @@ button {
   width: 106px;
   z-index: 27;
 }
-.ios-android {
+.span-link {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -732,7 +764,7 @@ button {
   letter-spacing: 0.2px;
   z-index: 28;
 }
-.watch-a-demo {
+.span-link-13 {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -747,7 +779,7 @@ button {
   letter-spacing: 0.2px;
   z-index: 29;
 }
-.customers {
+.span-link-14 {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -762,7 +794,7 @@ button {
   letter-spacing: 0.2px;
   z-index: 30;
 }
-.api {
+.span-link-15 {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -777,7 +809,7 @@ button {
   letter-spacing: 0.2px;
   z-index: 31;
 }
-.row-10 {
+.row-16 {
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
@@ -801,7 +833,7 @@ button {
   z-index: 33;
   overflow: hidden;
 }
-.made-during-hackumass-24 {
+.span-made-during-hackumass {
   flex-shrink: 0;
   flex-basis: auto;
   position: relative;
@@ -822,7 +854,7 @@ button {
   height: 2188px;
   top: 51px;
   left: -3px;
-  background: url(./assets/images/675b4649-dd21-4540-a9fd-adadcf7801fe.png)
+  background: url(./assets/images/a5181281-0af2-43b9-a1ea-ebb77d842d01.png)
     no-repeat center;
   background-size: cover;
 }
@@ -832,7 +864,7 @@ button {
   height: 720px;
   top: 63px;
   left: -1px;
-  background: url(./assets/images/4301377e-3a17-44ed-a01e-f3896a785101.png)
+  background: url(./assets/images/2e94dc53-b05a-4550-b2da-dddc48bf94bb.png)
     no-repeat center;
   background-size: cover;
   z-index: 40;

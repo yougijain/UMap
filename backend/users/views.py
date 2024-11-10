@@ -13,11 +13,17 @@ from .serializers import EventSerializer, UserPreferenceSerializer, EventCheckIn
 from django.http import HttpResponse
 from django.shortcuts import render
 
+
+# OUR PAGES:
+
 def homepage(request):
     return render(request, 'homepage.html')
 
 def map(request):
     return render(request, 'map.html')
+
+def login(request):
+    return render(request, 'login.html')
 
 
 
