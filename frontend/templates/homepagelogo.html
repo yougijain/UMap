@@ -249,7 +249,9 @@
               </div>
             </div>
             <div class="frame">
-              <div class="btn-text2">Find events</div>
+              <a href="{% url 'events' %}">
+                <div class="btn-text2">Find events</div>
+              </a>
             </div>
             <div class="h-2-section-title-4">Featured Events</div>
             <div class="paragraph">Some of our most popular events</div>
@@ -350,7 +352,9 @@
       <div class="map">Map</div>
     </a>
       <span class="login">Login</span>
-    <div class="events">Events</div>
+      <a href="{% url 'events' %}">
+        <div class="events">Events</div>
+      </a>
     <div class="home">Home</div>
     <div class="connect">Connect</div>
   </div>
