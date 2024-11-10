@@ -20,9 +20,13 @@
       <div class="flex-row">
         <div class="logo"></div>
         <span class="map">Map</span>
-        <div class="login-button"><span href="{% url 'login' %}" class="login">Login</span></div>
+        <div class="login-button">
+          <a href="{% url 'login' %}">
+              <span class="login">Login</span>
+          </a>
+      </div>
         <span class="events">Events</span><span class="connect">Connect</span
-        ><span href="{% url 'homepage' %}" class="home">Home</span>
+        ><a href="{% url 'homepage' %}"><span class="home">Home</span></a>
         <div class="line"></div>
       </div>
       <div class="border-map"></div>

@@ -38,7 +38,11 @@
           </div>
         </div>
         <div class="spot-float-image-a">
-          <div class="login-button"><span href="{% url 'login' %}" class="login">Login</span></div>
+          <div class="login-button">
+            <a href="{% url 'login' %}">
+                <span class="login">Login</span>
+            </a>
+        </div>
           <div class="shape-b"></div>
           <div class="flex-row-cad">
             <span class="f">F</span><span class="s-c">S</span>
@@ -47,8 +51,10 @@
             <span class="date-d">1</span><span class="date-e">2</span>
           </div>
         </div>
-        <span class="connect">Connect</span><span href="{% url 'map' %}" class="map">Map</span
-        ><span class="home">Home</span>
+          <a href="{% url 'connect' %}">
+          <span class="connect">Connect</span>
+          </a>
+      <span class="home">Home</span>
         <div class="line"></div>
         <div class="rectangle">
           <div class="flex-row-cd">
