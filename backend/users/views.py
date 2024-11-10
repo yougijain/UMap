@@ -22,7 +22,8 @@ def homepage(request):
 def login(request):
     return render(request, 'login.html')
 
-
+def map(request):
+    return render(request, 'map.html')
 
 
 
