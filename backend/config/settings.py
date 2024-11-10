@@ -34,6 +34,8 @@ ALLOWED_HOSTS = ['yourumap.onrender.com', 'umap-uglf.onrender.com', 'yourumap.te
 # Application definition
 
 INSTALLED_APPS = [
+    'whitenoise.runserver_nostatic',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -43,6 +45,7 @@ INSTALLED_APPS = [
 
     'rest_framework', # Django REST Framework
     'users' # Register the 'users' app
+
 ]
 
 MIDDLEWARE = [
@@ -53,6 +56,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'config.urls'
