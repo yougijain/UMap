@@ -11,6 +11,10 @@ from django.shortcuts import get_object_or_404
 from .models import Event, UserPreference, EventCheckIn, EventFeedback
 from .serializers import EventSerializer, UserPreferenceSerializer, EventCheckInSerializer, EventFeedbackSerializer
 from django.http import HttpResponse
+from django.shortcuts import render
+
+def homepage(request):
+    return render(request, 'index.html')
 
 #testing
 def home_view(request):
