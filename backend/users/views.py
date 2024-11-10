@@ -14,9 +14,18 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 def homepage(request):
-    return render(request, 'index.html')
+    return render(request, 'homepage.html')
 
-#testing
+def map(request):
+    return render(request, 'map.html')
+
+
+
+
+
+
+# ------------- testing and misc -----------------
+
 def home_view(request):
     return HttpResponse("<h1>Welcome to UMap: Your Ultimate Campus Event Navigator</h1><p>Use /api/users/ to access the available endpoints.</p>")
 
