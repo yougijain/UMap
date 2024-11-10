@@ -28,6 +28,9 @@ def login(request):
 def map(request):
     return render(request, 'map.html')
 
+def events(request):
+    return render(request, 'events.html')
+
 
 
 

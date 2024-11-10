@@ -1,0 +1,216 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'css/events.css' %}">
+  
+  
+  <style>
+   a,
+   button,
+   input,
+   select,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+   
+       -webkit-font-smoothing: antialiased;
+   }
+   
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+   </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="org-event-input-page">
+    <div class="rectangle-27"></div>
+    <img class="user-alt" src="{% static 'assets/user-alt0.svg' %}" />
+    <img class="vector" src="{% static 'assets/vector0.svg' %}" />
+    <a href="{% url 'map' %}">
+      <div class="map">Map</div>
+    </a>
+    <div class="events">Events</div>
+    <a href="{% url 'homepage' %}">
+      <div class="home">Home</div>
+    </a>
+    <div class="connect">Connect</div>
+    <div class="line-2"></div>
+    <div class="rectangle-28"></div>
+    <div class="div">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="made-during-hack-u-mass-24">
+              Made during HackUMass 24’
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="contact-us">
+        <div class="container2">
+          <div class="row2">
+            <div class="col-md-3">
+              <div class="h-3">Get In Touch</div>
+              <div class="social-media">
+                <div class="facebook">
+                  <img
+                    class="ant-design-facebook-filled"
+                    src="{% static 'assets/ant-design-facebook-filled0.svg' %}"
+                  />
+                </div>
+                <div class="instagram">
+                  <img
+                    class="ant-design-instagram-outlined"
+                    src="{% static 'assets/ant-design-instagram-outlined0.svg' %}"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-32">
+              <div class="h-3">Company info</div>
+              <div class="div2">
+                <div class="link">About Us</div>
+                <div class="link">Blog</div>
+              </div>
+            </div>
+            <div class="col-md-33">
+              <div class="h-3">Features</div>
+              <div class="div2">
+                <div class="link">Business Marketing</div>
+                <div class="link">User Analytic</div>
+                <div class="link">Live Chat</div>
+                <div class="link">Unlimited Support</div>
+              </div>
+            </div>
+            <div class="col-md-34">
+              <div class="h-3">Resources</div>
+              <div class="div2">
+                <div class="link">IOS &amp; Android</div>
+                <div class="link">Watch a Demo</div>
+                <div class="link">Customers</div>
+                <div class="link">API</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img class="logo" src="{% static 'assets/logo0.svg' %}" />
+    <div class="group-6">
+      <div class="rectangle-32"></div>
+      <div class="plan-event">Plan Event</div>
+      <img class="vector2" src="{% static 'assets/vector1.svg' %}" />
+    </div>
+    <img class="feather-chevron-right" src="{% static 'assets/feather-chevron-right0.svg' %}" />
+    <div class="jnt-input">
+      <div class="input-content">
+        <div class="icon-text"></div>
+      </div>
+    </div>
+    <div class="jnt-input2">
+      <div class="input-content2">
+        <div class="frame-2"></div>
+      </div>
+    </div>
+    <div class="name-of-event">Name of Event</div>
+    <div class="jnt-input3">
+      <div class="input-content2">
+        <div class="icon-text"></div>
+      </div>
+    </div>
+    <div class="_0">0</div>
+    <img class="shape" src="{% static 'assets/shape0.svg' %}" />
+    <div class="jnt-input4">
+      <div class="input-content2">
+        <div class="icon-text"></div>
+      </div>
+    </div>
+    <img class="shape2" src="{% static 'assets/shape1.svg' %}" />
+    <div class="jnt-input5">
+      <div class="input-content2">
+        <div class="icon-text"></div>
+      </div>
+    </div>
+    <div class="_02">0</div>
+    <img class="shape3" src="{% static 'assets/shape2.svg' %}" />
+    <div class="max-number-of-people-they-can-attend">
+      Max. Number of People They Can Attend
+    </div>
+    <div class="upload-files">Upload Files</div>
+    <div class="upload-files2">Upload Files</div>
+    <div class="bus-route">Bus Route?</div>
+    <div class="jnt-input6">
+      <div class="input-content2">
+        <div class="icon-text"></div>
+      </div>
+    </div>
+    <img class="shape4" src="{% static 'assets/shape3.svg' %}" />
+    <div class="smoking-zone">Smoking Zone?</div>
+    <div class="price-per-person">Price Per Person</div>
+    <div class="jnt-input7">
+      <div class="input-content">
+        <div class="icon-text"></div>
+      </div>
+    </div>
+    <div class="location">Location</div>
+    <div class="event-description">Event Description</div>
+    <div class="date">Date</div>
+    <div class="line-14"></div>
+    <div class="line-16"></div>
+    <div class="line-15"></div>
+    <div class="mm">MM</div>
+    <div class="am">AM</div>
+    <div class="time">Time</div>
+    <div class="line-17"></div>
+    <div class="line-19"></div>
+    <div class="line-18"></div>
+    <div class="div3">/</div>
+    <div class="div4">:</div>
+    <div class="div5">/</div>
+    <div class="dd">DD</div>
+    <div class="yyyy">YYYY</div>
+    <img class="feather-map-pin" src="{% static 'assets/feather-map-pin0.svg' %}" />
+    <img class="calendar-check" src="{% static 'assets/calendar-check0.svg' %}" />
+    <img class="shape5" src="{% static 'assets/shape4.svg' %}" />
+    <div class="rectangle-33"></div>
+    <div class="rectangle-34"></div>
+    <div class="drag-drop">Drag &amp; Drop</div>
+    <div class="or-browse">
+      <span>
+        <span class="or-browse-span">or</span>
+        <span class="or-browse-span2">browse</span>
+        <span class="or-browse-span3"></span>
+      </span>
+    </div>
+    <div class="s-supports-jpeg-png-jpg">
+      <span>
+        <span class="s-supports-jpeg-png-jpg-span">S</span>
+        <span class="s-supports-jpeg-png-jpg-span2">Supports JPEG, PNG, JPG</span>
+      </span>
+    </div>
+    <img
+      class="e-8-ee-0728-e-1-ba-12-edd-484-c-111-c-1-f-492-f-2-removebg-preview-1"
+      src="{% static 'assets/e-8-ee-0728-e-1-ba-12-edd-484-c-111-c-1-f-492-f-2-removebg-preview-10.svg' %}"
+    />
+  </div>
+  
+</body>
+</html>
