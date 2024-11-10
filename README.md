@@ -1,10 +1,10 @@
-# UMap
+# UMap - Your Campus Event Navigator
 
-Simple overview of use/purpose.
+Welcome to UMap! UMap brings your campus to life by connecting you with events, people, and places around campus. Discover what’s happening, RSVP to events, find your way with interactive maps, and stay in the know about all the fun and important events on campus.
 
-## Description
+## What is UMap?
 
-An in-depth paragraph about your project and overview of use.
+UMap is your ultimate companion for an exciting campus experience! This dynamic web app makes it easy to dive into the vibrant life on campus. Discover amazing events, connect with student groups that match your interests, and effortlessly navigate to all the action. With UMap, you'll unlock a world of opportunities and connections, ensuring you never miss out on what makes your campus truly special!
 
 ## Getting Started
 
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 3. Set up a `.env` file with necessary environment variables such as API keys and database URLs.
 
 
-### Executing Program
+### Installation
 
 * How to run the program:
 1. To start the development server:
@@ -37,7 +37,7 @@ pip install -r requirements.txt
   python manage.py runserver
   ```
 2. Open your web browser and go to `http://127.0.0.1:8000` to access UMap.
-3. For deploying the app live, follow Render’s deployment guide or your chosen hosting service’s instructions.
+3. To deploy the app live, check Render or your preferred hosting for easy steps.
 
 ## Help
 
@@ -60,12 +60,8 @@ Yougi Jain
 ## Version History
 
 * 0.1
-    * See [commit change](https://github.com/yougijain/UMap/graphs/commit-activity) or See [release history]()
+    * See [commit change](https://github.com/yougijain/UMap/graphs/commit-activity)
     * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
