@@ -29,8 +29,9 @@ urlpatterns = [
     path('login/', views.login, name='login'),          # Route to the login view
     path('map/', views.map, name='map'),          # Route to the login view
     
-    path('logged/', views.homepagelogo, name='homepagelogo'),
+    path('logged-in/', views.homepagelogo, name='homepagelogo'),
     path('events/', views.events, name='events'),
+    path('registration/', views.registration, name='registration'),
     
     path('api/users/', include('users.urls')),       # Include URLs from users app
 ]

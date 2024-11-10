@@ -31,6 +31,9 @@ def map(request):
 def events(request):
     return render(request, 'events.html')
 
+def registration(request):
+    return render(request, 'registration.html')
+
 
 
 
