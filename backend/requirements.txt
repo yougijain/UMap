@@ -3,3 +3,4 @@ gunicorn==21.2.0              # Production WSGI HTTP server
 psycopg==3.1.8                # PostgreSQL adapter
 whitenoise==6.8.2             # Simplifies static file serving in production
 djangorestframework==3.15.0   # For building Web APIs
+python-dotenv
