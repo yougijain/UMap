@@ -27,7 +27,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.homepage, name='homepage'),       # Route to the homepage view
     path('map/', views.map, name='map'),             # Route to the map view
-    path('login/', views.login, name='map'),          # Route to the login view
+    path('login/', views.login, name='login'),          # Route to the login view
     
     
     
