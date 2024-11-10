@@ -28,7 +28,7 @@ SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "fallback-secret-key")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['yourumap.onrender.com', 'umap-uglf.onrender.com', 'yourumap.tech','www.yourumap.tech']
+ALLOWED_HOSTS = ['yourumap.onrender.com', 'umap-uglf.onrender.com', 'yourumap.tech','www.yourumap.tech', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -60,7 +60,7 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, '../../../frontend/Homepage')],
+        'DIRS': [os.path.join(BASE_DIR, '../frontend/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -121,9 +121,9 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, '../../frontend/Homepage'),  # Path to CSS and assets
+    os.path.join(BASE_DIR, '../frontend/static'),  # Path to CSS and assets
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')  # For production use
 
