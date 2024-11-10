@@ -469,7 +469,7 @@
   width: 964px;
   height: 471.35px;
   position: absolute;
-  left: calc(50% - 482px);
+  left: 825px;
   top: 822px;
   overflow: visible;
 }
@@ -493,7 +493,7 @@
   letter-spacing: 0.05em;
   font-weight: 700;
   position: absolute;
-  left: calc(50% - -243px);
+  left: 923px;
   top: 187px;
   width: 233px;
   height: 21px;
@@ -573,7 +573,7 @@
   font-weight: 400;
   position: absolute;
   right: 38.92%;
-  left: 60.05%;
+  left: 825px;
   width: 1.04%;
   bottom: 87.49%;
   top: 11.36%;
@@ -587,7 +587,7 @@
   font-weight: 400;
   position: absolute;
   right: 33.31%;
-  left: 65.08%;
+  left: 895px;
   width: 1.61%;
   bottom: 87.49%;
   top: 11.36%;
@@ -601,7 +601,7 @@
   font-weight: 400;
   position: absolute;
   right: 28.5%;
-  left: 70.47%;
+  left: 965px;
   width: 1.04%;
   bottom: 87.49%;
   top: 11.36%;
@@ -615,7 +615,7 @@
   font-weight: 400;
   position: absolute;
   right: 22.89%;
-  left: 75.5%;
+  left: 1035px;
   width: 1.61%;
   bottom: 87.49%;
   top: 11.36%;
@@ -629,7 +629,7 @@
   font-weight: 400;
   position: absolute;
   right: 18.07%;
-  left: 80.89%;
+  left: 1105px;
   width: 1.04%;
   bottom: 87.49%;
   top: 11.36%;
@@ -643,7 +643,7 @@
   font-weight: 400;
   position: absolute;
   right: 12.81%;
-  left: 86.15%;
+  left: 1175px;
   width: 1.04%;
   bottom: 87.49%;
   top: 11.36%;
@@ -657,7 +657,7 @@
   font-weight: 400;
   position: absolute;
   right: 7.65%;
-  left: 91.31%;
+  left: 1245px;
   width: 1.04%;
   bottom: 87.49%;
   top: 11.36%;
@@ -671,7 +671,7 @@
   font-weight: 500;
   position: absolute;
   right: 12.63%;
-  left: 86.33%;
+  left: 1175px;
   width: 1.04%;
   bottom: 85.42%;
   top: 13.43%;
@@ -685,7 +685,7 @@
   font-weight: 500;
   position: absolute;
   right: 7.42%;
-  left: 91.54%;
+  left: 1245px;
   width: 1.04%;
   bottom: 85.42%;
   top: 13.43%;
@@ -699,7 +699,7 @@
   font-weight: 500;
   position: absolute;
   right: 38.69%;
-  left: 60.27%;
+  left: 825px;
   width: 1.04%;
   bottom: 83.12%;
   top: 15.73%;
@@ -713,7 +713,7 @@
   font-weight: 500;
   position: absolute;
   right: 33.48%;
-  left: 65.48%;
+  left: 895px;
   width: 1.04%;
   bottom: 83.12%;
   top: 15.73%;
@@ -727,7 +727,7 @@
   font-weight: 500;
   position: absolute;
   right: 28.27%;
-  left: 70.69%;
+  left: 965px;
   width: 1.04%;
   bottom: 83.12%;
   top: 15.73%;
@@ -741,7 +741,7 @@
   font-weight: 500;
   position: absolute;
   right: 23.06%;
-  left: 75.9%;
+  left: 1035px;
   width: 1.04%;
   bottom: 83.12%;
   top: 15.73%;
@@ -755,7 +755,7 @@
   font-weight: 500;
   position: absolute;
   right: 17.06%;
-  left: 80.38%;
+  left: 1093px;
   width: 2.56%;
   bottom: 83.17%;
   top: 15.68%;
@@ -769,7 +769,7 @@
   font-weight: 500;
   position: absolute;
   right: 12.96%;
-  left: 86.24%;
+  left: 1175px;
   width: 0.81%;
   bottom: 83.08%;
   top: 15.77%;
@@ -783,7 +783,7 @@
   font-weight: 500;
   position: absolute;
   right: 6.15%;
-  left: 91.18%;
+  left: 1245px;
   width: 2.67%;
   bottom: 83.13%;
   top: 15.72%;
@@ -797,7 +797,7 @@
   font-weight: 500;
   position: absolute;
   right: 38.04%;
-  left: 59.88%;
+  left: 820px;
   width: 2.07%;
   bottom: 80.82%;
   top: 18.03%;
@@ -811,7 +811,7 @@
   font-weight: 500;
   position: absolute;
   right: 32.83%;
-  left: 65.09%;
+  left: 890px;
   width: 2.07%;
   bottom: 80.82%;
   top: 18.03%;
@@ -825,7 +825,7 @@
   font-weight: 500;
   position: absolute;
   right: 27.62%;
-  left: 70.31%;
+  left: 960px;
   width: 2.07%;
   bottom: 80.82%;
   top: 18.03%;
@@ -839,7 +839,7 @@
   font-weight: 500;
   position: absolute;
   right: 22.41%;
-  left: 75.52%;
+  left: 1030px;
   width: 2.07%;
   bottom: 80.82%;
   top: 18.03%;
@@ -853,7 +853,7 @@
   font-weight: 500;
   position: absolute;
   right: 17.2%;
-  left: 80.73%;
+  left: 1100px;
   width: 2.07%;
   bottom: 80.82%;
   top: 18.03%;
@@ -867,7 +867,7 @@
   font-weight: 500;
   position: absolute;
   right: 11.99%;
-  left: 85.94%;
+  left: 1175px;
   width: 2.07%;
   bottom: 80.82%;
   top: 18.03%;
@@ -881,7 +881,7 @@
   font-weight: 500;
   position: absolute;
   right: 6.78%;
-  left: 91.15%;
+  left: 1240px;
   width: 2.07%;
   bottom: 80.82%;
   top: 18.03%;
@@ -895,7 +895,7 @@
   font-weight: 500;
   position: absolute;
   right: 38.04%;
-  left: 59.88%;
+  left: 820px;
   width: 2.07%;
   bottom: 78.53%;
   top: 20.32%;
@@ -909,7 +909,7 @@
   font-weight: 500;
   position: absolute;
   right: 32.83%;
-  left: 65.09%;
+  left: 890px;
   width: 2.07%;
   bottom: 78.53%;
   top: 20.32%;
@@ -923,7 +923,7 @@
   font-weight: 500;
   position: absolute;
   right: 27.62%;
-  left: 70.31%;
+  left: 960px;
   width: 2.07%;
   bottom: 78.53%;
   top: 20.32%;
@@ -937,7 +937,7 @@
   font-weight: 500;
   position: absolute;
   right: 22.41%;
-  left: 75.52%;
+  left: 1030px;
   width: 2.07%;
   bottom: 78.53%;
   top: 20.32%;
@@ -951,7 +951,7 @@
   font-weight: 500;
   position: absolute;
   right: 17.2%;
-  left: 80.73%;
+  left: 1100px;
   width: 2.07%;
   bottom: 78.53%;
   top: 20.32%;
@@ -965,7 +965,7 @@
   font-weight: 500;
   position: absolute;
   right: 11.99%;
-  left: 85.94%;
+  left: 1175px;
   width: 2.07%;
   bottom: 78.53%;
   top: 20.32%;
@@ -979,7 +979,7 @@
   font-weight: 500;
   position: absolute;
   right: 6.78%;
-  left: 91.15%;
+  left: 1240px;
   width: 2.07%;
   bottom: 78.53%;
   top: 20.32%;
@@ -993,7 +993,7 @@
   font-weight: 500;
   position: absolute;
   right: 38.04%;
-  left: 59.88%;
+  left: 820px;
   width: 2.07%;
   bottom: 76.23%;
   top: 22.62%;
@@ -1007,7 +1007,7 @@
   font-weight: 500;
   position: absolute;
   right: 32.83%;
-  left: 65.09%;
+  left: 890px;
   width: 2.07%;
   bottom: 76.23%;
   top: 22.62%;
@@ -1021,7 +1021,7 @@
   font-weight: 500;
   position: absolute;
   right: 27.62%;
-  left: 70.31%;
+  left: 960px;
   width: 2.07%;
   bottom: 76.23%;
   top: 22.62%;
@@ -1035,7 +1035,7 @@
   font-weight: 500;
   position: absolute;
   right: 22.41%;
-  left: 75.52%;
+  left: 1030px;
   width: 2.07%;
   bottom: 76.23%;
   top: 22.62%;
@@ -1049,7 +1049,7 @@
   font-weight: 500;
   position: absolute;
   right: 17.2%;
-  left: 80.73%;
+  left: 1100px;
   width: 2.07%;
   bottom: 76.23%;
   top: 22.62%;
@@ -1063,7 +1063,7 @@
   font-weight: 500;
   position: absolute;
   right: 11.99%;
-  left: 85.94%;
+  left: 1175px;
   width: 2.07%;
   bottom: 76.23%;
   top: 22.62%;
@@ -1077,7 +1077,7 @@
   font-weight: 500;
   position: absolute;
   right: 6.78%;
-  left: 91.15%;
+  left: 1240px;
   width: 2.07%;
   bottom: 76.23%;
   top: 22.62%;
@@ -1091,7 +1091,7 @@
   font-weight: 500;
   position: absolute;
   right: 38.04%;
-  left: 59.88%;
+  left: 820px;
   width: 2.07%;
   bottom: 85.42%;
   top: 13.43%;
@@ -1105,7 +1105,7 @@
   font-weight: 500;
   position: absolute;
   right: 32.83%;
-  left: 65.09%;
+  left: 890px;
   width: 2.07%;
   bottom: 85.42%;
   top: 13.43%;
@@ -1119,7 +1119,7 @@
   font-weight: 500;
   position: absolute;
   right: 27.35%;
-  left: 70.58%;
+  left: 960px;
   width: 2.07%;
   bottom: 85.42%;
   top: 13.43%;
@@ -1133,7 +1133,7 @@
   font-weight: 500;
   position: absolute;
   right: 22.01%;
-  left: 75.92%;
+  left: 1030px;
   width: 2.07%;
   bottom: 85.42%;
   top: 13.43%;
@@ -1147,7 +1147,7 @@
   font-weight: 500;
   position: absolute;
   right: 16.99%;
-  left: 80.94%;
+  left: 1100px;
   width: 2.07%;
   bottom: 85.42%;
   top: 13.43%;
@@ -1217,8 +1217,9 @@
   letter-spacing: 0.5px;
   font-weight: 400;
   position: absolute;
-  left: calc(50% - 521px);
-  top: 367px;
+  text-align: left;
+  left: 160px;
+  top: 377px;
   width: 596px;
   height: 51px;
 }
@@ -1230,7 +1231,7 @@
   justify-content: flex-start;
   position: absolute;
   left: 360px;
-  top: 443px;
+  top: calc(51% - 644.5px);
 }
 .button-md {
   border-radius: 5px;
@@ -1245,6 +1246,7 @@
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
+  left: 60px;
   overflow: hidden;
 }
 .btn-text {
@@ -1267,8 +1269,8 @@
   align-items: center;
   justify-content: flex-start;
   position: absolute;
-  left: calc(50% - 521px);
-  top: calc(50% - 644.5px);
+  left: 210px;
+  top: calc(51% - 644.5px);
   overflow: hidden;
 }
 .btn-text2 {
