@@ -1,4 +1,4 @@
-# Project Title
+# UMap
 
 Simple overview of use/purpose.
 
@@ -10,42 +10,57 @@ An in-depth paragraph about your project and overview of use.
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* Python 3.8 or newer
+* Django and Django REST Framework (included in `requirements.txt`)
+* Render or similar hosting service for personal deployment
+* A web browser and internet connection for accessing the deployed site
+* Exact references to [Dependencies](https://github.com/yougijain/UMap/network/dependencies)
+
+*Our live website can be found at [yourumap.tech](https://yourumap.tech) until 11/8/2025*
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
+* How/where to download your program:
+1. Clone this repository from GitHub.
+2. Install the required libraries:
 ```
-code blocks for commands
+pip install -r requirements.txt
 ```
+3. Set up a `.env` file with necessary environment variables such as API keys and database URLs.
+
+
+### Executing Program
+
+* How to run the program:
+1. To start the development server:
+  ```
+  python manage.py runserver
+  ```
+2. Open your web browser and go to `http://127.0.0.1:8000` to access UMap.
+3. For deploying the app live, follow Render’s deployment guide or your chosen hosting service’s instructions.
 
 ## Help
 
-Any advise for common problems or issues.
+Command to run for help:
 ```
-command to run if program contains helper info
+python manage.py help
 ```
+Additionally, check your hosting service’s logs if deploying and experiencing issues.
 
 ## Authors
 
-Contributors names and contact info
+Adhya Reddy Putta
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Shachi Benara
+
+Aarjivi Chandra
+
+Yougi Jain
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
+    * See [commit change](https://github.com/yougijain/UMap/graphs/commit-activity) or See [release history]()
     * Initial Release
 
 ## License
