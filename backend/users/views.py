@@ -14,7 +14,7 @@ from django.http import HttpResponse
 
 #testing
 def home_view(request):
-    return HttpResponse("<h1>Welcome to UMass EventMap API</h1><p>Use /api/users/ to access the available endpoints.</p>")
+    return HttpResponse("<h1>Welcome to UMap: Your Ultimate Campus Event Navigator</h1><p>Use /api/users/ to access the available endpoints.</p>")
 
 class EventViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = Event.objects.all()
