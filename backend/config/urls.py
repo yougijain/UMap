@@ -25,6 +25,6 @@ from users import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/', views.homepage, name='homepage'),  # Route to the homepage view
+    path('', views.homepage, name='homepage'),  # Route to the homepage view
     path('api/users/', include('users.urls')),       # Include URLs from users app
 ]
