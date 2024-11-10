@@ -29,7 +29,7 @@ urlpatterns = [
     path('login/', views.login, name='login'),          # Route to the login view
     path('map/', views.map, name='map'),          # Route to the login view
     
-    
+    path('logged/', views.homepagelogo, name='homepagelogo'),
     
     path('api/users/', include('users.urls')),       # Include URLs from users app
 ]

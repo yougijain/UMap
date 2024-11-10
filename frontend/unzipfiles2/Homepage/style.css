@@ -1,3 +1,17 @@
+
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --light-pink: #cd9fa2;
+  --reddish: #995765;
+  --purple: #68274f;
+  --blue: #36356e;
+  --dark-blue: #110b3b;
+
+  /* Fonts */
+  /* Effects */
+}
+
 .home-page,
 .home-page * {
   box-sizing: border-box;

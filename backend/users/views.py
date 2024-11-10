@@ -19,6 +19,9 @@ from django.shortcuts import render
 def homepage(request):
     return render(request, 'homepage.html')
 
+def homepagelogo(request):
+    return render(request, 'homepagelogo.html')  # for after successful login
+
 def login(request):
     return render(request, 'login.html')
 
