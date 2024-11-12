@@ -16,7 +16,7 @@ UMap is your ultimate companion for an exciting campus experience! This dynamic 
 * A web browser and internet connection for accessing the deployed site
 * Exact references to [Dependencies](https://github.com/yougijain/UMap/network/dependencies)
 
-*Our live website can be found at [yourumap.tech](https://yourumap.tech) until 11/8/2025*
+*Our live website can be found at [yourumap.tech](https://yourumap.tech) until 11/8/2025, takes a while to load and may require a reload after an error screen*
 
 ### Installing
 
