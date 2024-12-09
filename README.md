@@ -1,10 +1,10 @@
 # UMap - Your Campus Event Navigator
 
-Welcome to UMap! UMap brings your campus to life by connecting you with events, people, and places around campus. Discover what’s happening, RSVP to events, find your way with interactive maps, and stay in the know about all the fun and important events on campus.
+Welcome to UMap! UMap brings your campus to life by connecting you with events, people, and places around campus. See what's happening, RSVP to events, find your way with interactive maps, and stay in the know about all the fun and important events on campus.
 
 ## What is UMap?
 
-UMap is your ultimate companion for an exciting campus experience! This dynamic web app makes it easy to dive into the vibrant life on campus. Discover amazing events, connect with student groups that match your interests, and effortlessly navigate to all the action. With UMap, you'll unlock a world of opportunities and connections, ensuring you never miss out on what makes your campus truly special!
+UMap is the perfect companion to an eventful campus life! This dynamic web app makes it pretty easy to dive into campus life. Find cool events, find student groups that fit your interests, and get directions to all the action without a hitch. With UMap, you'll unlock a world of opportunities and connections, ensuring you never miss out on what makes your campus truly special!
 
 ## Getting Started
 
